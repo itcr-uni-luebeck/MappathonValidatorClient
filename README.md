@@ -22,7 +22,7 @@ data.add("(S.0011_IG.4_I.18)-[:equivalent]->(S.0021_IG.1_I.4)");
 
 try {
         ValidationResponse response = client.validate(email,set,data);
-    } catch (Exception e) {
+        } catch (Exception e) {
         e.printStackTrace();
-    }
+        }
 ```
