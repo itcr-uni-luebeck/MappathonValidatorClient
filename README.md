@@ -1,5 +1,5 @@
 # Mappathon Validation Client 
-This project provides a Java Client for the Mappathon Validator. It is a simple JAR file which ease the connection to the Validation Service. 
+This project provides a Java Client for the Mappathon Validator. It is a simple JAR file which simplifies the connection to the Validation Service. 
 
 ## Install
 1. Download from the repository
