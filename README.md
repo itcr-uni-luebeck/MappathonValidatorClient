@@ -1,12 +1,33 @@
 # Mappathon Validation Client 
-This project provides a Java Client for the Mappathon Validator. It is a simple JAR file which simplifies the connection to the Validation Service. 
+This project provides a Java Client for the Mappathon Validator Service. There are two ways to integrate the client into your matching pipeline. 
 
 ## Install
+### Manual Download
 1. Download from the repository
 2. Add as an external dependency to your project
-3. Integrate in our Matching Pipeline for the [Mappathon](https://www.mappathon.de) Challenge
-4. Validate your results! 
+
+### Maven Dependency with [Jitpack](https://jitpack.io/) 
+1. Add the repository 
+```maven
+    <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+2. Add the dependency
+```maven
+    <dependency>
+	    <groupId>com.github.itcr-uni-luebeck</groupId>
+	    <artifactId>MappathonValidatorClient</artifactId>
+	    <version>1.0.0</version>
+	</dependency>
+```
+
 ## Usage
+
+
 
 ```java
 // The Client is a Singleton Object 
@@ -22,7 +43,7 @@ data.add("(S.0011_IG.4_I.18)-[:equivalent]->(S.0021_IG.1_I.4)");
 
 try {
         ValidationResponse response = client.validate(email,set,data);
-        } catch (Exception e) {
+    } catch (Exception e) {
         e.printStackTrace();
-        }
+    }
 ```
