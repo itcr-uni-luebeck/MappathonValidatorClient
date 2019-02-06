@@ -9,7 +9,7 @@ This project provides a Java Client for the Mappathon Validator Service. There a
 ### Maven Dependency with [Jitpack](https://jitpack.io/) 
 1. Add the repository 
 ```maven
-    <repositories>
+    	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
@@ -18,7 +18,7 @@ This project provides a Java Client for the Mappathon Validator Service. There a
 ```
 2. Add the dependency
 ```maven
-    <dependency>
+   	<dependency>
 	    <groupId>com.github.itcr-uni-luebeck</groupId>
 	    <artifactId>MappathonValidatorClient</artifactId>
 	    <version>1.0.0</version>
