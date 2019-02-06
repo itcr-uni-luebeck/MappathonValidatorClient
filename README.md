@@ -4,7 +4,8 @@ This project provides a Java Client for the Mappathon Validator Service. There a
 ## Install
 ### Manual Download
 1. Download from the repository
-2. Add as an external dependency to your project
+2. Run ```mvn clean package```
+3. Add as an external dependency to your project
 
 ### Maven Dependency with [Jitpack](https://jitpack.io/) 
 1. Add the repository 
